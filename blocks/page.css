@@ -8,11 +8,6 @@
   margin: 0px 200px;
 }
 
-.header {
-  margin: 45px;
-  max-width: 880px;
-}
-
 .logo__image {
   width: 173px;
   height: 33px;
@@ -23,7 +18,7 @@
   max-width: 880px;
   width: 100%;
   position: relative;
-  margin: 0 auto;
+  margin: 45px auto;
 }
 
 .profile {
