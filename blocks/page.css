@@ -5,7 +5,7 @@
 }
 
 .page__content {
-  margin: 0px 200px;
+  margin: 0px 20px;
 }
 
 .logo__image {
@@ -77,7 +77,7 @@
 }
 
 .cards {
-  /* fonts */
+  
 }
 
 .card__list {
@@ -85,6 +85,10 @@
   list-style-type: none;
   justify-content: center;
   grid-template-columns: repeat(auto-fit, 282px);
+  max-width: 880px;
+  max-height: 742px;
+  grid-gap: 20px 17px;
+  padding: 0;
 }
 
 .card {
@@ -106,6 +110,7 @@
   align-items: center;
   justify-content: space-between;
   border-radius: 0 0 10px 10px;
+  height: 79px;
 }
 
 .card__like-button {
