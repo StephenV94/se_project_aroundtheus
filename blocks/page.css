@@ -13,6 +13,12 @@
   max-width: 880px;
 }
 
+.logo__image {
+  width: 173px;
+  height: 33px;
+  padding: 0 707px 41px 0;
+}
+
 .page__section {
   max-width: 880px;
   width: 100%;
@@ -29,8 +35,9 @@
   grid-template-areas:
     "title button"
     "description description";
-  grid-template-columns: minmax(auto, 373px);
+  grid-template-columns: minmax(auto, 415px);
   align-items: center;
+  height: 77px;
 }
 
 .profile__edit-button {
@@ -45,6 +52,8 @@
   width: 150px;
   height: 50px;
   margin-left: auto;
+  border-radius: 2px;
+  border-color: white;
 }
 
 .profile__title {
@@ -79,11 +88,15 @@
 .card__list {
   display: grid;
   list-style-type: none;
+  justify-content: center;
+  grid-template-columns: repeat(auto-fit, 282px);
 }
 
 .card {
-  max-width: 282px;
-  max-height: 282px;
+  height: 282px;
+  width: 282px;
+  display: flex;
+  border-radius: 10px 10px 0 0;
 }
 
 .card__description {
@@ -95,8 +108,15 @@
   font-size: 24px;
   line-height: 29px;
   max-width: 282px;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 0 0 10px 10px;
 }
 
 .card__like-button {
   background: transparent url("../images/disabled-like.svg") center no-repeat;
+  border: none;
+  padding: 6px 0 5px 28px;
+  height: 21px;
+  width: 18px;
 }
