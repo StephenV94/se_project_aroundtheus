@@ -77,7 +77,7 @@
 }
 
 .cards {
-  
+
 }
 
 .card__list {
@@ -119,4 +119,36 @@
   padding: 6px 0 5px 28px;
   height: 21px;
   width: 18px;
+}
+
+@media screen and (max-width:480px) {
+  .logo__image {
+    padding: 0;
+  }
+
+  .profile {
+    background-color: pink;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+
+  .profile__title {
+    font-size: 22px;
+  }
+
+  .profile__description {
+    font-size: 14px;
+  }
+
+  .profile__info {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .profile__add-button {
+    margin: auto;
+    width: 282px;
+  }
 }
