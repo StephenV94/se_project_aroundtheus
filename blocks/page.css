@@ -138,10 +138,12 @@
     flex-direction: column;
     width: 100%;
     align-items: center;
+    padding-bottom: 36px;
   }
 
   .profile__title {
     font-size: 22px;
+    padding-right: 10px;
   }
 
   .profile__description {
