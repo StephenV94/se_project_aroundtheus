@@ -2,10 +2,24 @@
   font-family: "Inter", Arial, Helvetica, sans-serif;
   background-color: black;
   color: white;
+  min-height: 100vh;
 }
 
 .page__content {
-  margin: 0px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.page__section {
+  max-width: 880px;
+  width: 100%;
+  position: relative;
+  margin: 0 auto;
+}
+
+.header {
+  padding-top: 45px;
+  border-bottom: 1px solid #545454;
 }
 
 .logo__image {
@@ -14,15 +28,9 @@
   padding: 0 707px 41px 0;
 }
 
-.page__section {
-  max-width: 880px;
-  width: 100%;
-  position: relative;
-  margin: 45px auto;
-}
-
 .profile {
   display: flex;
+  padding: 40px 0 51px 0;
 }
 
 .profile__info {
@@ -49,6 +57,7 @@
   height: 50px;
   border-radius: 2px;
   border-color: white;
+  margin: 27px 0 28px auto;
 }
 
 .profile__title {
@@ -76,7 +85,8 @@
 }
 
 .cards {
-
+  max-width: 880px;
+  max-height: 742px;
 }
 
 .card__list {
@@ -84,8 +94,6 @@
   list-style-type: none;
   justify-content: center;
   grid-template-columns: repeat(auto-fit, 282px);
-  max-width: 880px;
-  max-height: 742px;
   grid-gap: 20px 17px;
   padding: 0;
   margin: 0;
@@ -118,6 +126,13 @@
   padding: 6px 0 5px 28px;
   height: 21px;
   width: 18px;
+}
+
+.footer {
+  margin: 0 auto;
+  padding-top: 67px;
+  width: 100%;
+  max-width: 880px;
 }
 
 @media screen and (max-width: 1100px) {
